@@ -6,7 +6,9 @@ class Main {
         Scanner sc=new Scanner(System.in);
         int a=sc.nextInt();
         int count=0;
-        
+
+        a=Math.abs(a);  //Convert the negative integer to the positive integer whether the user entered the negative integer
+ 
         while(a>0)
         {
             a=a/10;
